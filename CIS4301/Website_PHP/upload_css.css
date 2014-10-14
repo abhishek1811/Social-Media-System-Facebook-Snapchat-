@@ -1,0 +1,163 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	overflow: hidden;
+}
+
+#container-container
+{
+	margin-top: 100px;
+	width: 100%;
+	margin-left: 0.5%;
+	text-align: center;
+}
+
+#container
+{
+	background-color: white;
+	width: 500px;
+	max-height: 400px;
+	margin-left: 32%;
+	text-align: center;
+}
+
+#wrapper
+{
+	background-color: white;
+	width: 500px;
+	height: 310px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-image: url(YourCloset.jpg);
+	background-position: -475px -115px;
+	opacity: 0.4;
+}
+
+#noback
+{
+	width: 500px;
+	height: 280px;
+	position: absolute;
+	top: 175px;
+	left: 468px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#uploadtitle
+{
+	font-family: sans-serif;
+	color: #E30070;
+	margin-bottom: 5px;
+}
+
+#uploadbackground
+{
+	position: absolute;
+	z-index: -2;
+	opacity: 0.8;
+	margin-top: -15px;
+	margin-left: -0.5%;
+}
+/*
+#uploadbackground2
+{
+	position: absolute;
+	margin-top: -166px;
+	margin-left: -464px;
+	opacity: 0.5;
+	z-index: -1;
+}
+*/
+
+#wrapper
+{
+	overflow: hidden;
+}
+
+label
+{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+p label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+p input {
+    width: 200px;
+}
+
+.inputtext
+{
+	border: 0;
+	border-radius: 0;
+	height: 40px;
+	width: 315px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.selectbox
+{
+	border: 0;
+	background-color: white;
+	width: 315px;
+	height: 40px;
+	font-family: verdana;
+	font-size: 16px;
+	border-radius: 0;
+	-webkit-appearance:none;
+	margin-bottom: 10px;
+}
+
+.selectbox:hover
+{
+	background-color: #EEE;
+	cursor: pointer;
+}
+
+.fileinput
+{
+	width: 315px;
+	border:0;
+	background-color: white;
+	height: 40px;
+	border-radius: 0;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+
+#labelprofile
+{
+	font-family: verdana;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.submitbutton
+{
+	border-style: none;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #BBB;
+	color: white;
+	font-size: 18px;
+	height: 40px;
+	width: 318px;
+	border-radius: 0;
+}
+
+.submitbutton:hover
+{
+	background-color: white;
+	color: #BBB;
+}

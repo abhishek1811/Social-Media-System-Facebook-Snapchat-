@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Dressolutions</title>
+
+<link href="main_stylesheet.css" rel="stylesheet" type="text/css">
+<script src="http://use.edgefonts.net/sarina.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<img id="background" src="dress-background.jpg" width="1600" height="960"></img>
+
+    <div id="login-frame-wrapper">
+        <iframe id="login-frame" src="/CIS4301/Register.php" frameborder="0"></iframe>
+    </div>
+
+    <div id="content">
+        <div id="backgroundfade"></div>
+        <div id="header">
+        </div>
+        	<p id="WebsiteName">Dressolutions</p>
+            <div id="loginField">
+                <form action="/CIS4301/Website_PHP/login.php" method="post">
+                	<input id="usernameInput" placeholder="Username" type="text" name="email"><br/>
+                	<input id="passwordInput" placeholder="Password" type="password" name="password"><br/>
+                    <script type="text/javascript" src="main_js.js"></script>
+                    <div id="register">
+                        <p>Register</p>
+                    </div>
+                    <input style="visibility:hidden;" type="submit" value="submit"/>
+                </form>
+            </div>
+    		</div>
+            
+            
+    </div>
+
+</body>

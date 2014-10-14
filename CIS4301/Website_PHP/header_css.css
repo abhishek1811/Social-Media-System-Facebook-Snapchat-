@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+*
+{
+	margin: 0;
+}
+
+#body {
+	overflow-x: hidden;
+	background-color: #DFDFDF;
+}
+
+#content
+{
+	width: 100%;
+	min-width: 500px;
+	position: absolute;
+	margin: 0;
+	padding-top: 75px;
+	display: inline;
+	margin-left: 0.5%;
+}
+
+#header
+{
+	width: 100%;
+	min-width: 500px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-color: #E30070;
+	position: fixed;
+	z-index: 1;
+	box-shadow: 0px 0px 5px #888;
+}
+
+#siteName
+{
+	float: left;
+	font-family: sarina;
+	color: #FFF;
+	padding-left: 20px;
+	font-size: 36px;
+	line-height: 60px;
+}
+
+#siteName:hover
+{
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #FFF
+}
+
+#left-dropdown-wrapper
+{
+	position: absolute;
+	background-color: #B30070;
+	width: 20%;
+	height: 256px;
+	margin-left: -0.5%;
+	margin-top: -322px;
+}
+
+#left-dropdown
+{
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 1px;
+}
+
+#right-dropdown-wrapper
+{
+	position: absolute;
+	background-color: #B30070;
+	width: 20%;
+	height: 205px;
+	left: 100px;
+	margin-top: -322px;
+}
+
+#right-dropdown
+{
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 1px;
+}
+
+li
+{
+	background-color: #E30070;
+	margin-bottom: 1px;
+	height: 50px;
+	cursor: pointer;
+	line-height: 50px;
+	padding-left: 20px;
+	color: white;
+	font-family: sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+li:hover
+{
+	background-color: #F30070;
+}
+
+#user
+{
+	float: right;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding-right: 20px;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+#friend-requests
+{
+	float: right;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #FFF;
+	margin-top: 15px;
+	margin-right: 25px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	background-color: teal;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+#search
+{
+	float: right;
+	margin-top: 20px;
+	margin-right: 23%;
+}
+
+input
+{
+	font-size: 14px;
+	border: 1px solid #b7b7b7;
+	border-radius: 3px;
+	text-indent: 5px;
+	outline: none;
+	color: #333;
+}
+
+#user:hover
+{
+	cursor: pointer;
+}

@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+html, body {
+	overflow: hidden;
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+#background
+{
+	opacity: 0.25;
+}
+
+#login-frame-wrapper
+{
+	background-color: white;
+	position: absolute;
+	top:15%;
+    left:38%;
+	width: 400px;
+	height: 500px;
+	z-index: 2;
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#login-frame
+{
+	width: 100%;
+	height: 100%;
+	background-color: #E30070;
+}
+
+#close-button
+{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background-color: #b00057;
+	/* fix to be dynamic */
+	top: 130px;
+	left: 897px;
+	z-index: 3;
+
+	visibility: hidden;
+	opacity: 0;
+
+	border-radius: 0;
+
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+
+	/*not selectable*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#close-button p
+{
+	margin-top: 0px;
+	color: white;
+	font-family: sans-serif;
+}
+
+#close-button:hover
+{
+	background-color: #ca0063;
+}
+
+#WebsiteName
+{
+	font-family: sarina;
+	font-size: 8em;
+	color: #E30070;
+	
+}
+
+#content
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 75px;
+	text-align: center;
+	text-shadow: 5px 5px #DFDFDF;
+}
+
+#header
+{
+	width: 100%;
+	height: 75px;
+	position: absolute;
+	top: 2px;
+	left: -2px;
+	right: 0;
+}
+
+input
+{
+	display: inline-block;
+}
+
+#loginField
+{
+	margin-top: -50px;
+}
+
+input[type="text"]
+{
+
+}
+
+input[type="password"]
+{
+
+}
+
+input
+{
+	font-size: 21px;
+	border: 1px solid #b7b7b7;
+	border-radius: 3px;
+	text-indent: 5px;
+	color: #333;
+}
+
+input:hover
+{
+	border: 1px solid #a3a3a3;
+	/*box-shadow: 0px 0px 1px rgba(0,142,198,1);*/
+}
+
+#backgroundfade
+{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	margin-top: -75px;
+	opacity: 0.75;
+	visibility: hidden;
+}
+
+iframe
+{
+	box-shadow: 2px 2px 5px #222;
+}
+
+#register
+{
+	margin-top: -10px;
+	padding-left: 30px;
+	width: 55%;
+	text-align: right;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-shadow: none;
+	font-size: 14px;
+	
+	color: #E30070;
+	text-decoration: underline;
+	cursor: pointer;
+
+	/*not selectable*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

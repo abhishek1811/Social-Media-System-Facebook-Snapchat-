@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+	margin: 0;	
+}
+
+.tab-text
+{	
+	font-family: cutive, sans-serif;
+	/* font-size: 10px; set with jquery */
+	/* line-height: 100px;  use jquery to get rectangle height */
+	
+	background-color: #000;
+	color: transparent;
+	text-shadow: 1px 1px 2px #ed2424;
+	-webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+}
+
+.rectangle
+{
+    background-color: #b50f0f;
+    display: inline-block;
+    width: 250px;
+	height: 100px;
+	position: relative;
+	box-shadow: 1px 1px 5px #888;
+	
+	text-align: center;
+}
+
+.triangle
+{
+	/* set in jquery
+	border-top: 50px solid transparent;
+    border-left: 50px solid #b50f0f;
+    border-bottom: 50px solid transparent;
+    left: 250px;
+	top: 0px;
+	*/
+	position: absolute;
+}
+
+.triangle-border
+{
+	/* set in jquery
+	border-top: 50px solid transparent;
+	border-left: 50px solid #888;
+	border-bottom: 50px solid transparent;
+	left: 251px;
+	top: 1px;
+	*/
+	position: absolute;
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+}

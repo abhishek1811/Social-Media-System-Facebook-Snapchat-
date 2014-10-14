@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+}
+
+#body {
+	overflow-x: hidden;
+	background-color: #DFDFDF;
+	width: 400px;
+
+}
+	
+#main
+	{
+		width:400px;
+		margin-top: 20px;
+		background-color: #DFDFDF;
+	}
+	
+#main_frame
+	{
+		width:100%;
+		float:left;
+	}
+
+#main_body
+	{
+		float:left;
+		width:400px;
+	}
+	
+#Register_body
+	{
+		margin-left:40px;
+		float:left;
+		margin-top: -65px;
+	}
+	
+.text
+	{
+		border: 0;
+		height: 40px;
+		width: 315px;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+.submitbutton
+{
+	border-style: none;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #b00057;
+	color: white;
+	font-size: 24px;
+	height: 40px;
+	width: 318px;
+}
+
+.submitbutton:hover
+{
+	background-color: #ca0063;
+}
